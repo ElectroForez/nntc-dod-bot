@@ -21,8 +21,8 @@ def send_help(message, res=False):
 По вопросам ждём здесь:
 https://nntc.nnov.ru/
 
-Если вдруг захотелось узнать как сделан бот, то тебе сюда:
-
+Если вдруг захотелось узнать как сделан бот, то тебе сюда:\n
+https://github.com/ElectroForez/nntc-dod-bot
 """.strip()  # стираем пустые символы по краям
     bot.send_message(message.chat.id, help_text)
 

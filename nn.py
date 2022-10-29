@@ -11,7 +11,6 @@ model = FastTextSocialNetworkModel(tokenizer=tokenizer)
 
 def analyse_string(s):
     result = model.predict([s], k=2)[0]
-    print(result)
     return result
 
 
